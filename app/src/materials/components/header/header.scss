@@ -1,0 +1,11 @@
+@import 'base/colors';
+
+[data-component='header'] {
+	background: $light-grey;
+	padding: 15px 0;
+	margin: 0 0 50px;
+
+	h1 {
+		font-weight: normal;
+	}
+}

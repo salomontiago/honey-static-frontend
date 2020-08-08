@@ -1,0 +1,33 @@
+---
+title: Honey - Static Front-end
+---
+
+{{> header.header }}
+
+<div class="container">
+
+	<div class="row">
+		<div class="col">
+
+			<h2>Otimizar para Deploy</h2>
+			<p>Rodar o comando: <code>gulp build</code></p>
+
+			<h2>Principais funções</h2>
+			<ul>
+				<li>Integração handlesbar, podemos criar páginas e componentes reutilizáveis em todo projeto, cada um destes pode ter um json de dados, atribuído para si, sendo possível reaproveitamento da estrutura HTML, trocando apenas os dados.</li>
+				<li>Sass css preprocessor, com autoprefixer para melhorar questões crossbrowser.</li>
+				<li>Bootstrp 4, apenas o grid e utilitários.</li>
+				<li>Sprites para assets.</li>
+				<li>Jshint, sass lint</li>
+				<li>Imagemin para minificar imagens</li>
+				<li>BrowserSync, monta um server local rodando a aplicação, e faz sync dos navegadores em diferentes dispositivos, para melhor debug durante dev com responsividade.</li>
+				<li>Minifica css e js para deploy mais compacto.</li>
+				<li>Utiliza Yarn como gerênciador de pacotes.</li>
+			</ul>
+
+		</div>
+	</div>
+
+	{{> slider.slider index }}
+
+</div>

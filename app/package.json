@@ -1,0 +1,52 @@
+{
+  "name": "honey-static-frontend",
+  "version": "1.0.0",
+  "description": "A tool for building static websites",
+  "license": "MIT",
+	"author": "Tiago Salomon",
+  "homepage": "",
+  "main": "",
+  "scripts": {
+    "gulp": "gulp",
+    "prestart": "yarn",
+    "start": "gulp --dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/salomontiago/honey-static-frontend.git"
+  },
+  "engines": {
+    "node": ">=10.17.0",
+    "npm": ">=6.0.0"
+  },
+  "devDependencies": {
+    "jquery": "^3.3.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "babel-loader": "^8.0.6",
+    "babelify": "^10.0.0",
+    "bootstrap": "^4.1.3",
+    "browser-sync": "^2.26.7",
+    "browserify": "^16.5.0",
+    "del": "^2.0.1",
+    "fabricator-assemble": "^1.4.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean-css": "^2.0.3",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-lint": "^1.4.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.4.1",
+    "gulp.spritesmith": "^4.1.1",
+    "handlebars-loader": "^1.7.1",
+    "path-parse": "^1.0.6",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}

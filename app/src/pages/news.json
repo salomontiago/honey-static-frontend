@@ -1,0 +1,36 @@
+{
+	"slider": {
+		"config": {
+			"arrows": false,
+			"dots": true,
+			"slidesToShow": 4,
+			"slidesToScroll": 1
+		},
+		"items":[
+			{
+				"img": "https://via.placeholder.com/420x300/3071a0/FFFFFF",
+				"alt": "lorem"
+			},
+			{
+				"img": "https://via.placeholder.com/420x300/3071a0/FFFFFF",
+				"alt": "lorem"
+			},
+			{
+				"img": "https://via.placeholder.com/420x300/3071a0/FFFFFF",
+				"alt": "lorem"
+			},
+			{
+				"img": "https://via.placeholder.com/420x300/3071a0/FFFFFF",
+				"alt": "lorem"
+			},
+			{
+				"img": "https://via.placeholder.com/420x300/3071a0/FFFFFF",
+				"alt": "lorem"
+			},
+			{
+				"img": "https://via.placeholder.com/420x300/3071a0/FFFFFF",
+				"alt": "lorem"
+			}
+		]
+	}
+}
